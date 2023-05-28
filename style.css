@@ -1,0 +1,459 @@
+.imagenlogo{
+
+width:23%;
+margin-left: 0px;
+
+
+}
+
+header{
+
+    background-color:#D2B48C;
+    padding: 20px 0;
+   
+}
+
+.caja{
+
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+nav{
+
+    position: absolute;
+    top: 110px;
+    right: 0px;
+
+}
+
+nav li{
+
+    display: inline;
+    margin: 0 0 0 15px ;
+  
+   
+}
+
+nav a{
+
+    /* text-transform:uppercase; se usa para cambiar mayusculas y minusculas */
+     color: #4A0404;
+     font-family: 'Stylish', sans-serif;
+     /* font-weight: bold; para aplicar negritas y demas estilos */
+    text-decoration: none;
+    font-size: 22px;
+
+}
+
+/* esta propiedad nos ayudo a capturar el movimiento */
+nav a:hover{
+
+    color: #E1C16E;
+
+}
+
+.color-abajo-servicios{
+
+    background: #EADDCA;
+
+}
+
+.servicios{
+
+    width: 250px;
+
+}
+
+.service li{
+
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5px;
+    padding: 30px 20px ;
+    box-sizing: border-box;
+    border: 1.7px solid #C2B280;
+    border-radius: 10px;
+ 
+
+}
+
+.service li:hover{
+
+    border-color:  #E1C16E ;
+
+}
+
+.service li:active{
+
+    border-color: #D27D2D;
+
+}
+
+.service{
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.service h2{
+
+    font-family: 'Stylish', sans-serif;
+    font-size: 130%;
+    
+    
+}
+
+.service li:hover h2 {
+
+    font-size: 160% ;
+
+}
+
+.describe-producto{
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    vertical-align: top;
+
+}
+footer{
+
+    text-align: center;
+   
+    padding: 40px;
+    background-color:rgba(72, 60, 50,0.6);
+
+}
+
+.footer{
+
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+
+}
+
+.logopie{
+
+    width: 23%;
+   
+
+}
+
+
+
+.form{
+
+    width: 940px;
+    margin: 0 auto;
+   
+
+}
+
+form{
+
+    margin: 40px 0px
+    
+
+
+}
+
+form label, form legend {
+
+    display: block;
+    font-family: 'Darumadrop One', cursive;
+    font-size: 20px;
+    margin: 10px 0px 0px;
+ 
+
+}
+
+.horarios{
+
+    margin: 20px 0;
+
+}
+
+
+.tipografia{
+
+    margin: 15px 0px;
+    font-family: 'Darumadrop One', cursive;
+    border-radius: 10px;
+
+}
+
+
+.input-padron{
+
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+
+}
+
+.checkbox{
+
+    margin: 20px 0;
+
+}
+
+.enviar{
+
+    margin-top: 10px;
+    font-family: 'Darumadrop One', cursive;
+    background-color:	#CD7F32;
+    color: black;
+    border-radius: 30px;
+    width: 40%;
+    padding: 15px 0;
+    font-size: 20px;
+    border: none;
+    transition: 0.7s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+
+    background: #6F4E37;
+    transform: scale(0.9); 
+
+}
+
+table{
+
+    margin: 40px 30px;
+    font-family: 'Darumadrop One', cursive;
+
+}
+
+thead{
+
+    background: #967969;
+    color: white;
+    
+   
+
+}
+
+tbody{
+
+    text-align: center;
+
+}
+
+td, th{
+
+    border: 2px solid #483C32;
+    border-bottom: 3px dotted #483C32;
+    padding: 8px 25px;
+}
+
+/* CSS para nuestra pagina inicial */
+
+.degradado-texto-base{
+
+    background: linear-gradient(rgba(193, 154, 107,0.1), rgba(150, 121, 105,0.3), rgba(72, 60, 50,0.5));
+
+}
+
+.banner{
+
+    width: 100%;
+    vertical-align: middle
+
+}
+
+.principal{
+
+    padding: 3em;
+    width: 940px;
+    margin: 0 auto;
+   
+
+}
+
+.principal h2{
+
+    font-size: 2em;
+    padding: 10px;
+    background-color: #967969;
+    text-align: center;
+    font-family: 'Darumadrop One', cursive;
+    clear: left,;
+    
+  
+  
+
+}
+
+.tituloprincipal, .tituloprincipal1{
+
+    font-size: 2em;
+    padding: 10px;
+    
+    text-align: center;
+    font-family: 'Darumadrop One', cursive;
+    clear: left;
+    
+
+  
+}
+
+.tituloprincipal1{
+
+    margin: 0 0 1em;
+
+}
+
+.principal p {
+
+    text-align: center;
+    font-family: 'Stylish', sans-serif;
+    font-size: 20px;
+    margin: 0 0 1em;
+   
+
+}
+
+.principal strong{
+
+    font-weight: bold;
+
+}
+
+.latte{
+
+    width: 120px;
+    float: left;
+    margin:0px 20px 20px 0px;
+
+}
+
+.mapa {
+
+    padding: 4em 3em ;
+    
+}
+
+.mapa p{
+
+    font-family: 'Stylish', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 0 1em;
+
+}
+
+.mapa-contenido{
+
+    width: 940px;
+    margin: 0 auto;
+    box-shadow: 10px 6px 30px 0.3px #6F4E37;
+
+
+
+}
+
+.Servicios{
+
+    padding: 3em 0;
+   
+
+
+}
+
+.contenido-servicios{
+
+    width: 640px;
+    margin: 0 auto;
+   
+
+}
+
+.lista-servicios{
+
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.items{
+
+    line-height: 1.5;
+    font-size: 1em;
+    font-family: 'Stylish', sans-serif;
+
+
+}
+
+.items::before{
+
+    content:"🐾" ;
+
+}
+.items::after{
+
+    content:"🐾" ;
+
+}
+
+.items:first-child{
+
+    font-weight: bold;
+
+}
+
+.imagen-servicios{
+
+    width: 340px;
+    transition: 400ms;
+    box-shadow: 10px 10px 25px #6F4E37;
+
+}
+
+.imagen-servicios:hover{
+
+    opacity: 0.6;
+
+
+}
+
+.video{
+
+    width: 560px;
+    margin: 2em auto;
+    box-shadow: -10px 6px 15px #6F4E37;
+
+
+}
+
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-servicios, .video , .imagenlogo , .form, .service, .servicios{
+        width: auto;
+    }
+    .lista-servicios, .imagen-servicios{
+        width: 100%;
+    }
+}
+
+
+
+
